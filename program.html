@@ -1,182 +1,196 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Program Kerja OSIM | Ponpes Thawalib Tanjung Limau</title>
+  <title>Program Kerja OSIM</title>
 
-    <style>
-        body {
-            font-family: "Poppins", Arial, sans-serif;
-            background: #f0f9f4;
-            margin: 0;
-            padding: 0;
-            color: #2a3d2d;
-        }
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
 
-        header {
-            background: linear-gradient(120deg, #0a8a3a, #0c7a31, #0FAE49);
-            padding: 40px 20px;
-            text-align: center;
-            color: white;
-        }
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0B6623, #2ecc71);
+      background-attachment: fixed;
+      color: white;
+      text-align: center;
+    }
 
-        h1 {
-            margin: 0;
-            font-size: 32px;
-            letter-spacing: 1px;
-        }
+    h1 {
+      margin-top: 40px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.35);
+    }
 
-        .container {
-            width: 90%;
-            max-width: 900px;
-            margin: 30px auto;
-            background: white;
-            padding: 20px 25px;
-            border-radius: 12px;
-            box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
-        }
+    .card {
+      background: rgba(255, 255, 255, 0.95);
+      color: #1b1b1b;
+      padding: 30px;
+      margin: 30px auto;
+      max-width: 950px;
+      border-radius: 18px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+      text-align: left;
+    }
 
-        .section {
-            margin-bottom: 25px;
-        }
+    .card h2 {
+      color: #0B6623;
+      text-align: center;
+      margin-bottom: 6px;
+    }
 
-        .section h2 {
-            background: #0FAE49;
-            color: white;
-            padding: 12px 16px;
-            border-radius: 8px;
-            font-size: 20px;
-        }
+    .program-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 20px;
+    }
 
-        ul {
-            margin-top: 10px;
-            padding-left: 20px;
-        }
+    .program-item {
+      background: #f6fff6;
+      border-radius: 12px;
+      padding: 14px 16px;
+      margin-bottom: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    }
 
-        li {
-            margin-bottom: 6px;
-            line-height: 1.6;
-        }
+    .program-item h3 {
+      margin: 0 0 6px 0;
+      color: #0B6623;
+      font-size: 18px;
+    }
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-            font-size: 14px;
-            color: #3a4e3a;
-        }
-    </style>
+    .program-item p {
+      margin: 0;
+      color: #333;
+      line-height: 1.4;
+    }
+
+    .small {
+      font-size: 13px;
+      color: #555;
+      margin-top: 8px;
+    }
+
+    /* Menu tombol */
+    .menu {
+      margin-top: 22px;
+      text-align: center;
+    }
+
+    .menu a {
+      display: inline-block;
+      background: #0B6623;
+      color: white;
+      padding: 10px 18px;
+      margin: 6px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+      transition: 0.25s;
+    }
+
+    .menu a:hover {
+      background: #2ecc71;
+      transform: translateY(-3px);
+    }
+
+    @media (max-width: 600px) {
+      .card { padding: 18px; margin: 16px; }
+      .menu a { padding: 8px 12px; margin: 4px; font-size: 14px; }
+    }
+  </style>
+
 </head>
 
 <body>
 
-<header>
-    <h1>Program Kerja OSIM</h1>
-    <p>Pondok Pesantren Thawalib Tanjung Limau</p>
-</header>
+  <h1>🌿 Program Kerja OSIM</h1>
 
-<div class="container">
+  <div class="card">
+    <h2>Rencana Kegiatan & Program Utama</h2>
+    <p style="text-align:center; color:#444; margin-top:6px;">
+      Berikut ringkasan program kerja OSIM Pondok Pesantren Thawalib Tanjung Limau.  
+      Setiap program dilaksanakan oleh tim terkait dan dievaluasi secara berkala.
+    </p>
 
-    <div class="section">
-        <h2>1. Bidang Keagamaan</h2>
-        <ul>
-            <li>Kegiatan Magrib Mengaji & Tahfiz Pagi</li>
-            <li>Kajian rutin ba’da Subuh</li>
-            <li>Pelatihan adzan dan imam</li>
-            <li>Peringatan hari besar Islam (PHBI)</li>
-            <li>Program One Day One Ayat</li>
-        </ul>
+    <ul class="program-list">
+
+      <li class="program-item">
+        <h3>1. Pengajian Rutin & Pembinaan Keagamaan</h3>
+        <p>Pengajian mingguan untuk meningkatkan keilmuan agama dan adab santri. Materi: tafsir, hadits, fikih dasar, dan pembiasaan amalan.</p>
+        <div class="small">Target: Semua santri • Jadwal: Setiap Sabtu pagi • Penanggung jawab: Koordinator Keagamaan</div>
+      </li>
+
+      <li class="program-item">
+        <h3>2. Pelatihan Kepemimpinan & Kaderisasi</h3>
+        <p>Program untuk mengasah kemampuan kepemimpinan pengurus (manajemen rapat, koordinasi, pengambilan keputusan, pembinaan anggota).</p>
+        <div class="small">Target: Pengurus OSIM • Jadwal: Bulanan (workshop) • Penanggung jawab: Ketua & Wakil Ketua</div>
+      </li>
+
+      <li class="program-item">
+        <h3>3. Program Kedisiplinan & Kehadiran</h3>
+        <p>Kegiatan untuk meningkatkan kedisiplinan santri (ketepatan waktu ibadah, kebersihan pribadi, kerapian asrama).</p>
+        <div class="small">Target: Semua santri • Jadwal: Pengawasan harian + Laporan mingguan • Penanggung jawab: Koordinator Kedisiplinan</div>
+      </li>
+
+      <li class="program-item">
+        <h3>4. Kegiatan Sosial & Bakti Masyarakat</h3>
+        <p>Pengabdian kepada masyarakat sekitar: gotong royong, bakti sosial, kunjungan ke panti, dan penggalangan bantuan saat diperlukan.</p>
+        <div class="small">Target: Pengurus & relawan • Jadwal: Triwulan atau sesuai kebutuhan • Penanggung jawab: Humas</div>
+      </li>
+
+      <li class="program-item">
+        <h3>5. Kegiatan Kreativitas & Seni</h3>
+        <p>Rangkaian kegiatan seni budaya pesantren: pentas seni, lomba baca puisi, kaligrafi, dan ruang kreasi siswa.</p>
+        <div class="small">Target: Santri aktif • Jadwal: Semesteran • Penanggung jawab: Koordinator Kreativitas & Seni</div>
+      </li>
+
+      <li class="program-item">
+        <h3>6. Program Olahraga & Kesehatan</h3>
+        <p>Latihan rutin olahraga (sepakbola, futsal, bulutangkis) dan pemeriksaan kesehatan dasar bersama tenaga kesehatan setempat.</p>
+        <div class="small">Target: Santri • Jadwal: Latihan mingguan • Penanggung jawab: Koordinator Olahraga</div>
+      </li>
+
+      <li class="program-item">
+        <h3>7. Pelatihan Kewirausahaan & Ketrampilan</h3>
+        <p>Pelatihan keterampilan (menjahit, katering kecil, produksi makanan ringan) dan kewirausahaan untuk menumbuhkan kemandirian organisasi.</p>
+        <div class="small">Target: Pengurus & anggota yang berminat • Jadwal: Bulanan • Penanggung jawab: Bendahara & Koordinator Kewirausahaan</div>
+      </li>
+
+      <li class="program-item">
+        <h3>8. Program Publikasi & Humas</h3>
+        <p>Pembuatan laporan kegiatan, foto dokumentasi, pengumuman, dan manajemen media sosial resmi OSIM untuk menyampaikan informasi ke santri & wali.</p>
+        <div class="small">Target: Humas & Dokumentasi • Jadwal: Kontinyu • Penanggung jawab: Koordinator Humas</div>
+      </li>
+
+      <li class="program-item">
+        <h3>9. Program Lingkungan & Kebersihan</h3>
+        <p>Program menjaga kebersihan lingkungan pesantren: jadwal piket, penghijauan, dan pengelolaan sampah sederhana.</p>
+        <div class="small">Target: Semua santri • Jadwal: Harian/mingguan • Penanggung jawab: Koordinator Kebersihan</div>
+      </li>
+
+      <li class="program-item">
+        <h3>10. Agenda Tahunan (Pelantikan, Pekan OSIM, Lomba)</h3>
+        <p>Kegiatan besar setiap tahun seperti pelantikan pengurus, pekan kegiatan OSIM, lomba internal antar-kelompok, sebagai puncak evaluasi dan apresiasi.</p>
+        <div class="small">Target: Semua santri • Jadwal: Tahunan • Penanggung jawab: Panitia Tahunan</div>
+      </li>
+
+    </ul>
+
+    <div style="margin-top:18px; color:#444;">
+      <strong>Catatan singkat:</strong> tiap program perlu dibuat rencana kerja (jadwal detail, anggaran kecil bila perlu, daftar panitia, dan target keberhasilan). Evaluasi dilakukan minimal setiap akhir semester.
     </div>
 
-    <div class="section">
-        <h2>2. Bidang Akademik & Prestasi</h2>
-        <ul>
-            <li>Kelas tambahan mata pelajaran UN/AKM</li>
-            <li>Kompetisi matematika, IPA, Bahasa Arab & Inggris</li>
-            <li>Workshop menulis dan pidato</li>
-            <li>Bimbingan lomba antar madrasah</li>
-        </ul>
+    <div class="menu">
+      <a href="index.html">Beranda</a>
+      <a href="pengurus.html">Daftar Pengurus</a>
+      <a href="program.html">Program Kerja</a>
+      <a href="galeri.html">Galeri Kegiatan</a>
+      <a href="kontak.html">Kontak</a>
     </div>
 
-    <div class="section">
-        <h2>3. Bidang Kedisiplinan</h2>
-        <ul>
-            <li>Razia perlengkapan setiap pekan</li>
-            <li>Gerakan 5S (Senyum, Salam, Sapa, Santun, Sopan)</li>
-            <li>Patroli disiplin pagi dan malam</li>
-            <li>Apel pagi bersama OSIM</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>4. Bidang Kebersihan & Lingkungan</h2>
-        <ul>
-            <li>Jumat Bersih seluruh area pondok</li>
-            <li>Piket kelas harian</li>
-            <li>Program Satu Santri Satu Tanaman</li>
-            <li>Pengelolaan sampah & pemilahan</li>
-            <li>Lomba kelas terbersih bulanan</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>5. Bidang Seni, Budaya & Keterampilan</h2>
-        <ul>
-            <li>Latihan hadrah dan marawis</li>
-            <li>Tari tradisional & pidato tiga bahasa</li>
-            <li>Pelatihan desain poster</li>
-            <li>Kompetisi bakat: kaligrafi, cerpen, nasyid</li>
-            <li>Workshop public speaking</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>6. Bidang Olahraga & Kesehatan</h2>
-        <ul>
-            <li>Senam pagi setiap pekan</li>
-            <li>Lomba futsal, badminton, voli</li>
-            <li>Pekan Olahraga Pesantren (PORPES)</li>
-            <li>Edukasi kesehatan & kebersihan diri</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>7. Bidang Humas & Media</h2>
-        <ul>
-            <li>Dokumentasi kegiatan harian</li>
-            <li>Pengelolaan media sosial OSIM</li>
-            <li>Publikasi poster & video kegiatan</li>
-            <li>Pelatihan jurnalistik & editing</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>8. Bidang Kewirausahaan</h2>
-        <ul>
-            <li>Bazar santri setiap bulan</li>
-            <li>Pengembangan usaha kecil OSIM</li>
-            <li>Pelatihan marketing & manajemen uang</li>
-            <li>Kerjasama dengan koperasi pondok</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>9. Bidang Sosial & Pengabdian</h2>
-        <ul>
-            <li>Bakti sosial ke masyarakat</li>
-            <li>Donasi untuk anak yatim & korban musibah</li>
-            <li>Program peduli sesama antar santri</li>
-            <li>Kunjungan ke panti asuhan</li>
-        </ul>
-    </div>
-
-</div>
-
-<footer>
-    © OSIM Pondok Pesantren Thawalib Tanjung Limau
-</footer>
+  </div>
 
 </body>
 </html>
-
