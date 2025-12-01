@@ -7,22 +7,11 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: Arial;
+      font-family: Arial, sans-serif;
       background: linear-gradient(135deg, #0B6623, #2ecc71);
       background-attachment: fixed;
       color: white;
       text-align: center;
-    }
-
-    .card {
-      background: rgba(255, 255, 255, 0.92);
-      color: #1b1b1b;
-      padding: 30px;
-      margin: 40px auto;
-      max-width: 850px;
-      border-radius: 18px;
-      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-      text-align: left;
     }
 
     h1 {
@@ -30,82 +19,141 @@
       text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
     }
 
-    h2 {
-      color: #0B6623;
-      border-left: 6px solid #0B6623;
-      padding-left: 10px;
-      margin-top: 30px;
+    .card {
+      background: rgba(255, 255, 255, 0.93);
+      color: #1b1b1b;
+      padding: 35px;
+      margin: 30px auto;
+      max-width: 900px;
+      border-radius: 18px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+      text-align: left;
     }
 
-    ul {
-      line-height: 1.8;
-      font-size: 16px;
+    h2 {
+      color: #0B6623;
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table th {
+      background: #0B6623;
+      color: white;
+      padding: 12px;
+    }
+
+    table td {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    tr:hover {
+      background: #e9ffe9;
+    }
+
+    /* Menu tombol */
+    .menu {
+      margin-top: 25px;
+      text-align: center;
+    }
+
+    .menu a {
+      display: inline-block;
+      background: #0B6623;
+      color: white;
+      padding: 12px 22px;
+      margin: 8px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+      transition: 0.3s;
+    }
+
+    .menu a:hover {
+      background: #2ecc71;
+      transform: translateY(-3px);
     }
   </style>
 
 </head>
-<div class="menu">
-      <a href="pengurus.html">Daftar Pengurus</a>
-      <a href="program.html">Program Kerja</a>
-      <a href="galeri.html">Galeri Kegiatan</a>
-      <a href="kontak.html">Kontak</a>
-    </div>
+
 <body>
 
   <h1>🌿 Daftar Pengurus OSIM</h1>
 
   <div class="card">
-    <h2>Pengurus Inti</h2>
-    <ul>
-      <li><b>Ketua Umum:</b> Muhammad Fathur Rahman</li>
-      <li><b>Wakil Ketua:</b> Ahmad Zidan Al-Faruqi</li>
-      <li><b>Sekretaris Umum:</b> Siti Nur Aisyah</li>
-      <li><b>Wakil Sekretaris:</b> Nabila Rahmah Putri</li>
-      <li><b>Bendahara Umum:</b> Rahmat Hidayat</li>
-      <li><b>Wakil Bendahara:</b> Nurul Hikmah</li>
-    </ul>
+    <h2>Struktur Pengurus OSIM Pondok Pesantren Thawalib Tanjung Limau</h2>
 
-    <h2>Bidang Keagamaan</h2>
-    <ul>
-      <li><b>Ketua:</b> Aulia Rahman</li>
-      <li>Fikri Hidayat</li>
-      <li>Siti Rahmadani</li>
-    </ul>
+    <table>
+      <tr>
+        <th>Jabatan</th>
+        <th>Nama Pengurus</th>
+      </tr>
 
-    <h2>Bidang Kedisiplinan & Keamanan</h2>
-    <ul>
-      <li><b>Ketua:</b> Fahri Al-Islam</li>
-      <li>Salman Fikri</li>
-      <li>Raka Firmansyah</li>
-    </ul>
+      <tr>
+        <td>Ketua OSIM</td>
+        <td>Nama Ketua OSIM</td>
+      </tr>
 
-    <h2>Bidang Kebersihan & Lingkungan</h2>
-    <ul>
-      <li><b>Ketua:</b> Rina Afifah</li>
-      <li>Nur Zahra</li>
-      <li>Putra Pratama</li>
-    </ul>
+      <tr>
+        <td>Wakil Ketua</td>
+        <td>Nama Wakil Ketua</td>
+      </tr>
 
-    <h2>Bidang Seni & Kreativitas</h2>
-    <ul>
-      <li><b>Ketua:</b> Dhea Anjani</li>
-      <li>Alfin Pratama</li>
-      <li>Naila Fitri</li>
-    </ul>
+      <tr>
+        <td>Sekretaris</td>
+        <td>Nama Sekretaris</td>
+      </tr>
 
-    <h2>Bidang Olahraga</h2>
-    <ul>
-      <li><b>Ketua:</b> Ridho Saputra</li>
-      <li>Fadhil Rahman</li>
-      <li>Fikri Al Ghazali</li>
-    </ul>
+      <tr>
+        <td>Bendahara</td>
+        <td>Nama Bendahara</td>
+      </tr>
 
-    <h2>Bidang Humas & Komunikasi</h2>
-    <ul>
-      <li><b>Ketua:</b> Salsa Amelia</li>
-      <li>Yasmin Wardah</li>
-      <li>Fathan Mubarak</li>
-    </ul>
+      <tr>
+        <td>Koordinator Keagamaan</td>
+        <td>Nama Pengurus</td>
+      </tr>
+
+      <tr>
+        <td>Koordinator Kedisiplinan</td>
+        <td>Nama Pengurus</td>
+      </tr>
+
+      <tr>
+        <td>Koordinator Kebersihan</td>
+        <td>Nama Pengurus</td>
+      </tr>
+
+      <tr>
+        <td>Koordinator Kreativitas & Seni</td>
+        <td>Nama Pengurus</td>
+      </tr>
+
+      <tr>
+        <td>Koordinator Olahraga</td>
+        <td>Nama Pengurus</td>
+      </tr>
+
+      <tr>
+        <td>Koordinator Humas</td>
+        <td>Nama Pengurus</td>
+      </tr>
+    </table>
+
+    <div class="menu">
+      <a href="index.html">Beranda</a>
+      <a href="pengurus.html">Daftar Pengurus</a>
+      <a href="program.html">Program Kerja</a>
+      <a href="galeri.html">Galeri Kegiatan</a>
+      <a href="kontak.html">Kontak</a>
+    </div>
 
   </div>
 
